@@ -1,0 +1,115 @@
+/* Author : arJun
+Date : 05/01/2023 */
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    position: relative;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sans-serif;
+    
+}
+.coverimage{
+    width: 100%;
+}
+.headerfooter{
+    width: 100%;
+    height: 10px;
+    background-color: rgb(52, 171, 226);
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color:  rgb(217, 217, 199);
+    padding: 30px;
+    padding: 20px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.body{
+    display: flex;
+    margin-top: 50px;
+}
+h2{
+    text-transform: uppercase;
+    font-style: italic;
+    color: rgb(52, 171, 226);
+    margin: 20px;
+}
+.a1{
+    font-size: large;
+    color: rgb(52, 171, 226);
+    margin-left: 20px;
+    padding-right: 0px;
+    text-decoration: none;   
+}
+
+li:first-child{
+    font-weight: bold;
+}
+h3{
+    color: rgb(52, 171, 226);
+}
+aside{
+    background-color: rgb(217, 217, 199);
+    width: 400px;
+    padding: 20px;
+    border-top: 5px solid  rgb(52, 171, 226);
+    border-bottom: 5px solid  rgb(52, 171, 226) ;
+    align-self: flex-start;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.img{
+    width: 50px;
+}
+.imgaside{  
+    display: flex; 
+    margin-top: 20px;
+    gap: 10px;
+}
+.form1{
+    position: absolute;
+    right: -200px;
+}
+footer{
+    text-align: center;
+}
+h1{
+    padding: 20px 0;
+    color: rgb(52, 171, 226);
+    
+}
+p{
+    padding: 5px 5px 5px 0;
+    font-size: 12px;
+}
+ol,ul{
+    margin-left: 20px;
+    font-size: 12px;
+}
+h3{
+    padding: 10px 0;
+}
+.top{
+    background-color:#ffff00;
+    position: absolute;
+    right: 341px;
+    top: 180px;
+}
+h4{
+    text-align: center;
+}
+.a2{
+    font-size: large;
+    color: rgb(52, 171, 226);
+    text-decoration: none;  
+   
+}
